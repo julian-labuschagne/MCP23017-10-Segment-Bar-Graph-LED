@@ -4,7 +4,6 @@ int delay_time = 80;
 
 void setup() {
 
-  //Serial.begin(9600);
   Wire.begin();
   
   Wire.beginTransmission(0x20);
